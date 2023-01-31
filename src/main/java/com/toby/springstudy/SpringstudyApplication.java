@@ -15,8 +15,8 @@ public class SpringstudyApplication {
 		UserDao dao = new UserDao();
 
 		User user = new User();
-		user.setId("whiteship");
-		user.setName("백기선");
+		user.setId("yellow");
+		user.setName("오정선");
 		user.setPassword("married");
 
 		dao.add(user);
