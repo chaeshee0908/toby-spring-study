@@ -8,7 +8,7 @@ public class SimpleConnectionMaker {
     public Connection makeNewConnection() throws ClassNotFoundException, SQLException {
         Class.forName("com.mysql.cj.jdbc.Driver");
         Connection c = DriverManager.getConnection(
-                "jdbc:mysql://localhost:3306/toby", "seunghee", "cotmdgml019@"
+                "jdbc:mysql://localhost:3306/toby", "", ""
         );
         return c;
     }
